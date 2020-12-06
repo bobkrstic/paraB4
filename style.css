@@ -1,0 +1,53 @@
+#parallax_image {
+  background-image: url("assets/city_view_dusk.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  /* parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paraText {
+  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+#parallax_image_2 {
+  background-image: url("assets/city_view_dusk.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax_image_3 {
+  background-image: url("assets/old_city.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bottom_text p:nth-child(2) {
+  margin-bottom: 50px;
+}
