@@ -11,13 +11,17 @@
 }
 
 .paraText {
-  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
-  color: white;
-  font-size: 50px;
+  font-family: Cursive, "Cosmic Sans", "American Typewriter";
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 60px;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 p {
   text-align: justify;
+  font-family: "American Typewriter";
+  font-size: medium;
 }
 
 #parallax_image_2 {
