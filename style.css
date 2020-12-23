@@ -24,6 +24,11 @@ p {
   font-size: medium;
 }
 
+div.col-md-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #parallax_image_2 {
   background-image: url("assets/city_view_dusk.jpeg");
   height: 500px;
@@ -52,6 +57,20 @@ p {
   background-size: cover;
 }
 
-#bottom_text p:nth-child(2) {
+#parallax_image_4 {
+  background-image: url("historic.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bottom_text p {
   margin-bottom: 50px;
 }
